@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="apptest">
+  <test name="redifflogintest">
+  
+  <parame name= "url" value= "https://mail.rediff.com/cgi-bin/login.cgi"/>
+  <parameter name= "Username" value= "Bharath"/>
+  <parameter name= "Password" value= "9663808105"/>
+ 
+    <classes>
+      <class name="com.parameters.parametertest"></class>
+    </classes>
+  </test> 
+</suite>
